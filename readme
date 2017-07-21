@@ -1,0 +1,8 @@
+write an http/1.0 web server that serves static files from the specified directory
+>start by handling one request at a time
+>support the GET and HEAD verbs
+>then if you’ve got time, choose from the list:
+    threaded/evented request handling;
+    serve index.html if the directory is requested;
+    return the correct MIME type based on the filename’s extension;
+    implement ERB (that’s the `<% some ruby code %>` thing).

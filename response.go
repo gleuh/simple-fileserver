@@ -29,7 +29,7 @@ func (r Response) BuildBody() string {
 }
 
 func createResponse(code int, contentType string, data []byte) Response {
-	return Response {
+	return Response{
 		code:        code,
 		contentType: contentType,
 		body:        data,

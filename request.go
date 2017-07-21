@@ -2,8 +2,8 @@ package main
 
 import (
 	"errors"
-	"strings"
 	"fmt"
+	"strings"
 )
 
 type Request struct {
@@ -26,9 +26,9 @@ func newRequest(line string) (Request, error) {
 	method := requestAsArray[0]
 	path := requestAsArray[1]
 
-	req = Request {
+	req = Request{
 		method: method,
-		path: path,
+		path:   path,
 	}
 
 	return req, nil

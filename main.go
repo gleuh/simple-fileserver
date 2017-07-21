@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net"
-	"os"
-	"strings"
 	"net/http"
+	"os"
 	"path/filepath"
+	"strings"
 )
 
 type HttpError struct {
